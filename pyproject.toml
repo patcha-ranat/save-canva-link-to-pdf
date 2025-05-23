@@ -1,0 +1,23 @@
+[project]
+name = "save-canva-link-to-pdf"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ken-patcharanat",email = "patcha-ranat@outlook.com"}
+]
+license = {text = "GNU GENERAL PUBLIC LICENSE"}
+readme = "README.md"
+requires-python = ">=3.9,<=3.12"
+dependencies = [
+    "requests==2.32.3",
+    "pillow==11.2.1",
+    "selenium==4.32.0",
+    "PyAutoGUI==0.9.54"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
