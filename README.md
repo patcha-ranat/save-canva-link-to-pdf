@@ -19,7 +19,7 @@ export VENV_PATH="${POETRY_HOME}/Scripts"
 export PATH="${VENV_PATH}:${PATH}"
 # exported variables available only within a session
 
-python -m .poetry-env ~
+python -m venv ~/.poetry-env
 
 ${VENV_PATH}/pip install poetry
 # OR ${VENV_PATH}/python pip install poetry
